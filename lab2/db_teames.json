@@ -1,0 +1,5 @@
+{"_id":{"$oid":"5eaf9cbe905e91d28e367275"},"name":"dreamTeam","coach":"Petrov","players":["Who","Ivanov","Pavlov","Petrenko"]}
+{"_id":{"$oid":"5eaf9d37905e91d28e367276"},"name":"team?","coach":"Rick","players":["Kok","Gek","Track"]}
+{"_id":{"$oid":"5eaf9d56905e91d28e367277"},"name":"NoTeam","coach":"Pup","players":["Tetra","Kvadro","Duo"]}
+{"_id":{"$oid":"5eaf9dad905e91d28e367278"},"name":"Temeria","coach":"Folt","players":["Sigelin","Velerad","Istred"]}
+{"_id":{"$oid":"5eaf9ddb905e91d28e367279"},"name":"Sky","coach":"Imp","players":["Dov","Bery","Swallow"]}

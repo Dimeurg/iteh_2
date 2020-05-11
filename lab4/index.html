@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+	<head>
+		<title>chat</title>
+		<style>
+			* { margin: 0; padding: 0; box-sizing: border-box; }
+		
+			#mainForm{background: rgb(0,0,0); position : fixed; bottom: 0; width: 100%; padding: 1px; }
+			#msgText{width: 90%; padding: 10px}
+			#buttonSend{width: 9%; padding: 10px}
+		</style>
+	</head>
+	
+	<body>
+		<ul id="messagesList"></ul>
+		
+		<form id = "mainForm">
+			<input id = "msgText" autocomplete="off" />
+			<button id = "buttonSend">Отправить</button>
+		</form>
+
+		<script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+		<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+		
+		<script>
+			$(function()
+				{
+					var service = io();
+					
+					$('#mainForm').submit(function()
+					{
+						service.emit('message from client', $('#msgText').val());
+						$('#msgText').val('');
+						return false;
+					});
+					
+					service.on('message for client', function(msg)
+					{
+						$('#messagesList').append($('<li>').text(msg));
+					})
+				});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,5 @@
+{"_id":{"$oid":"5eb65923a8b67e6fefcf3f7e"},"league":"Gold league","date":{"$date":"2020-05-20T00:00:00Z"},"place":"Ground area","teams":["team?","NoTeam"],"score":[2.0,1.0]}
+{"_id":{"$oid":"5eb6596ea8b67e6fefcf3f7f"},"league":"Gold league","date":{"$date":"2020-05-10T00:00:00Z"},"place":"Sky area","teams":["dreamTeam","team?"],"score":[2.0,3.0]}
+{"_id":{"$oid":"5eb6598da8b67e6fefcf3f80"},"league":"Gold league","date":{"$date":"2020-05-15T00:00:00Z"},"place":"Sky area","teams":["dreamTeam","NoTeam"],"score":[2.0,1.0]}
+{"_id":{"$oid":"5eb659e2a8b67e6fefcf3f81"},"league":"Try league","date":{"$date":"2020-05-13T00:00:00Z"},"place":"No area","teams":["Temeria","Sky"],"score":[2.0,2.0]}
+{"_id":{"$oid":"5eb659f4a8b67e6fefcf3f82"},"league":"Try league","date":{"$date":"2020-05-16T00:00:00Z"},"place":"No area","teams":["Temeria","Sky"],"score":[6.0,6.0]}
